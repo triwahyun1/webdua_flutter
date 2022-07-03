@@ -20,19 +20,20 @@ class Page2 extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+            children: <Widget>[
               // ignore: avoid_unnecessary_containers
               Container(
                 child: const Text(
                   'Cristino Murphy',
                   style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 25,
                       fontWeight: FontWeight.bold,
                       color: Colors.red),
                 ),
               ),
               // ignore: avoid_unnecessary_containers
               Container(
+                margin: EdgeInsets.only(top: 15),
                 child: const Text(
                   'I`m a Passionate Web Designer',
                   style: TextStyle(
@@ -40,22 +41,24 @@ class Page2 extends StatelessWidget {
                   ),
                 ),
               ),
-
-              Text(
-                'Obviously I`m a Web Designer. Web Developer with over 3 years of experience. \nExperienced with all stages of the development cycle for dynamic web projects. \nThe as opposed to using "Content here, content here", making it look like \nreadable English.',
-                style: TextStyle(
-                  fontSize: 17,
-                  color: Colors.grey,
+              Container(
+                margin: EdgeInsets.only(top: 15),
+                child: const Text(
+                  "Obviously I`m a Web Designer. Web Developer with over 3 years of experience. \nExperienced with all stages of the development cycle for dynamic web projects. \nThe as opposed to using 'Content here, content here', making it look like \nreadable English.",
+                  style: TextStyle(
+                    fontSize: 17,
+                    color: Colors.grey,
+                  ),
                 ),
               ),
-              const SizedBox(
-                width: 30,
-              ),
-              Text(
-                'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of \nletters, as opposed to using "Content here, content here", making it look \nlike readable English.',
-                style: TextStyle(
-                  fontSize: 17,
-                  color: Colors.grey,
+              Container(
+                margin: EdgeInsets.only(top: 15),
+                child: const Text(
+                  "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of \nletters, as opposed to using 'Content here, content here', making it look \nlike readable English.",
+                  style: TextStyle(
+                    fontSize: 17,
+                    color: Colors.grey,
+                  ),
                 ),
               ),
               Image(

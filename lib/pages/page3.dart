@@ -26,29 +26,20 @@ class Page3 extends StatelessWidget {
               height: 50,
             ),
             const Text(
-              'Obviously I`m a Web Designer. Experienced with all stages of the development cycle for dynamic \nweb projects.',
+              'Obviously I`m a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.',
               style: TextStyle(
                 fontSize: 15,
               ),
             ),
+            const SizedBox(height: 15),
             Column(
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Card(
-                      elevation: 8,
                       child: Row(
                         children: [
-                          // ignore: avoid_unnecessary_containers
-                          Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
                           // ignore: avoid_unnecessary_containers
                           Container(
                             margin: const EdgeInsets.all(10.0),
@@ -67,16 +58,6 @@ class Page3 extends StatelessWidget {
                         // mainAxisSize: MainAxisSize.min,
                         children: [
                           Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
-                          Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
                               'Mac OS',
@@ -92,16 +73,6 @@ class Page3 extends StatelessWidget {
                       child: Row(
                         // mainAxisSize: MainAxisSize.min,
                         children: [
-                          Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
                           Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
@@ -119,22 +90,10 @@ class Page3 extends StatelessWidget {
                         // mainAxisSize: MainAxisSize.min,
                         children: [
                           Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
-                          Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
                               'Coffee',
-                              style: TextStyle(
-                                fontSize: 15,
-                              ),
+                              style: TextStyle(fontSize: 15),
                             ),
                           ),
                         ],
@@ -142,23 +101,13 @@ class Page3 extends StatelessWidget {
                     ),
                   ],
                 ),
+                const SizedBox(height: 15),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Card(
-                      elevation: 8,
                       child: Row(
                         children: [
-                          // ignore: avoid_unnecessary_containers
-                          Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
                           Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
@@ -176,16 +125,6 @@ class Page3 extends StatelessWidget {
                         // mainAxisSize: MainAxisSize.min,
                         children: [
                           Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
-                          Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
                               'Games',
@@ -201,16 +140,6 @@ class Page3 extends StatelessWidget {
                       child: Row(
                         // mainAxisSize: MainAxisSize.min,
                         children: [
-                          Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
                           Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
@@ -228,16 +157,6 @@ class Page3 extends StatelessWidget {
                         // mainAxisSize: MainAxisSize.min,
                         children: [
                           Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
-                          Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
                               'Sports',
@@ -251,23 +170,15 @@ class Page3 extends StatelessWidget {
                     ),
                   ],
                 ),
+                const SizedBox(height: 15),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Card(
-                      elevation: 8,
                       child: Row(
                         children: [
                           // ignore: avoid_unnecessary_containers
-                          Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
+
                           Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
@@ -282,17 +193,7 @@ class Page3 extends StatelessWidget {
                     ),
                     Card(
                       child: Row(
-                        // mainAxisSize: MainAxisSize.min,
                         children: [
-                          Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
                           // ignore: avoid_unnecessary_containers
                           Container(
                             margin: const EdgeInsets.all(10.0),
@@ -311,16 +212,6 @@ class Page3 extends StatelessWidget {
                         // mainAxisSize: MainAxisSize.min,
                         children: [
                           Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
-                          Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
                               'Android',
@@ -337,16 +228,6 @@ class Page3 extends StatelessWidget {
                         // mainAxisSize: MainAxisSize.min,
                         children: [
                           Container(
-                            // padding: const EdgeInsets.all(20.0),
-                            margin: const EdgeInsets.all(10.0),
-                            child: const Icon(
-                              Icons.facebook,
-                              color: Colors.black,
-                              size: 20,
-                            ),
-                          ),
-                          // ignore: avoid_unnecessary_containers
-                          Container(
                             margin: const EdgeInsets.all(10.0),
                             child: const Text(
                               'Other Activity',
@@ -362,21 +243,6 @@ class Page3 extends StatelessWidget {
                 ),
               ],
             ),
-
-            // Row(
-            //   children: [
-            //     Container(
-            //       width: 100,
-            //       height: 100,
-            //       color: Colors.black,
-            //     ),
-            //     Container(
-            //       width: 100,
-            //       height: 100,
-            //       color: Colors.blue,
-            //     ),
-            //   ],
-            // ),
           ],
         ),
       ),

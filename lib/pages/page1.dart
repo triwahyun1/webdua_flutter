@@ -39,9 +39,7 @@ class Page1 extends StatelessWidget {
                         color: Colors.red),
                   ),
                 ),
-                const SizedBox(
-                  width: 30,
-                ),
+                const SizedBox(width: 30),
                 Container(
                   // ignore: prefer_const_constructors
                   margin: EdgeInsets.only(top: 20),

@@ -1,7 +1,4 @@
 // ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors
-// ignore: unused_import
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 class Navbar extends StatelessWidget {
@@ -11,74 +8,67 @@ class Navbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.start,
-        children: [
-          Image(
-            image: AssetImage("images/gambar1.jpg"),
-            width: 150,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          const SizedBox(
             height: 100,
-          ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'HOME',
-              style: TextStyle(color: Colors.black),
+            width: 150,
+            child: Image(
+              image: AssetImage("images/gambar1.jpg"),
             ),
           ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'SERVICES',
-              style: TextStyle(color: Colors.black),
-            ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              TextButton(
+                onPressed: () {},
+                child: Text('HOME', style: TextStyle(color: Colors.black)),
+              ),
+              SizedBox(width: 25),
+              TextButton(
+                onPressed: () {},
+                child: Text('SERVICES', style: TextStyle(color: Colors.black)),
+              ),
+              SizedBox(width: 25),
+              TextButton(
+                onPressed: () {},
+                child: Text('RESUME', style: TextStyle(color: Colors.black)),
+              ),
+              SizedBox(width: 25),
+              TextButton(
+                onPressed: () {},
+                child: Text('PROJECTS', style: TextStyle(color: Colors.black)),
+              ),
+              SizedBox(width: 25),
+              TextButton(
+                onPressed: () {},
+                child: Text('BLOG', style: TextStyle(color: Colors.black)),
+              ),
+              SizedBox(width: 25),
+              TextButton(
+                onPressed: () {},
+                child: Text('CONTACT', style: TextStyle(color: Colors.black)),
+              ),
+              SizedBox(width: 25),
+              TextButton(
+                onPressed: () {},
+                child: Text('PAGES', style: TextStyle(color: Colors.black)),
+              ),
+              // DropdownMenuItem(
+              //     child: Column(
+              //   children: const [
+              //     Icon(
+              //       Icons.arrow_forward_ios_outlined,
+              //       size: 16,
+              //       color: Colors.black,
+              //     ),
+              //     Text('ghfg'),
+              //     Text('data')
+              //   ],
+              // ))
+            ],
           ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'RESUME',
-              style: TextStyle(color: Colors.black),
-            ),
-          ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'PROJECTS',
-              style: TextStyle(color: Colors.black),
-            ),
-          ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'BLOG',
-              style: TextStyle(color: Colors.black),
-            ),
-          ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'CONTACT',
-              style: TextStyle(color: Colors.black),
-            ),
-          ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'PAGES',
-              style: TextStyle(color: Colors.black),
-            ),
-          ),
-          const Icon(
-            Icons.facebook,
-            color: Colors.black,
-            size: 20,
-          ),
-          // IconButton(
-          //     icon: Image.asset(
-          //       "assets/icons/facebook_logo.png",
-          //       fit: BoxFit.fill,
-          //       color: Colors.white,
-          //     ),
-          //     onPressed: () {}),
         ],
       ),
     );

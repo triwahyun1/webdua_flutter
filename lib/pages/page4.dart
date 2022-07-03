@@ -5,43 +5,97 @@ class Page4 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        height: 200,
-        width: 900,
-        // padding: const EdgeInsets.all(20),
-        // margin: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
-            gradient: LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: [Colors.blue.shade900, Colors.blue],
-        )),
-        child: Row(
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Column(
-              children: const [
-                Text('Happy Client'),
-              ],
+            // ignore: avoid_unnecessary_containers
+            Container(
+              child: const Text(
+                '1251',
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
-            Column(
-              children: const [
-                Text('Award Won'),
-              ],
-            ),
-            Column(
-              children: const [
-                Text('Cup of Coffee'),
-              ],
-            ),
-            Column(
-              children: const [
-                Text('Project Complete'),
-              ],
+            const Text(
+              'Happy Client',
+              style: TextStyle(
+                fontSize: 20,
+              ),
             ),
           ],
         ),
-      ),
+        const SizedBox(width: 30),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // ignore: avoid_unnecessary_containers
+            Container(
+              child: const Text(
+                '15',
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const Text(
+              'Award Won',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(width: 30),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // ignore: avoid_unnecessary_containers
+            Container(
+              child: const Text(
+                '3261',
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const Text(
+              'Cup of Coffee',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(width: 30),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // ignore: avoid_unnecessary_containers
+            Container(
+              child: const Text(
+                '36',
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const Text(
+              'Project Complete',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            ),
+          ],
+        ),
+      ],
     );
   }
 }
